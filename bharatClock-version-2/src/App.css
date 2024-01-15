@@ -1,0 +1,33 @@
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    /* White background */
+}
+
+.clock {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+.time {
+    font-size: 50px;
+    font-weight: 700;
+    color: #3498db;
+    /* Beautiful color for time */
+    margin: 0;
+}
+
+.date {
+    font-size: 20px;
+    color: #555;
+    /* Subdued color for date */
+    margin: 5px 0;
+}
